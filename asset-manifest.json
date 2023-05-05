@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c41b9225.css",
+    "main.js": "/static/js/main.d1c5045f.js",
+    "static/media/profile.png": "/static/media/profile.c1582f7ad3aa93d1a189.png",
+    "static/media/contact.png": "/static/media/contact.c108ec3a0a3acc81a9e6.png",
+    "static/media/weatherApp.JPG": "/static/media/weatherApp.89bead005acee3f3d6bf.JPG",
+    "static/media/projectTenzieGame.jpg": "/static/media/projectTenzieGame.0fb5cd951560545ff5c7.jpg",
+    "static/media/projectNotezApp.jpg": "/static/media/projectNotezApp.d244c84ef9d0eb234ec8.jpg",
+    "index.html": "/index.html",
+    "main.c41b9225.css.map": "/static/css/main.c41b9225.css.map",
+    "main.d1c5045f.js.map": "/static/js/main.d1c5045f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c41b9225.css",
+    "static/js/main.d1c5045f.js"
+  ]
+}
