@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
       <div className="container px-5">
         <Link className="navbar-brand" href="/">
-          <span className="fw-bolder text-primary">Navigate <i class="bi bi-arrow-right-square"></i></span>
+          <span className="fw-bolder text-primary">Navigate <i className="bi bi-arrow-right-square"></i></span>
         </Link>
         <button
           className="navbar-toggler"

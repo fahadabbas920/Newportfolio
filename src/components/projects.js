@@ -1,9 +1,9 @@
 import weatherApp from "../assets/weatherApp.JPG";
 import TenzieGame from "../assets/projectTenzieGame.jpg";
-import NotezApp from "../assets/projectNotezApp.jpg"
-
-
+import NotezApp from "../assets/projectNotezApp.jpg";
+import WeatherApp2 from "../assets/weatherApp2.png";
 import Card from "./card";
+import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <>
@@ -19,6 +19,13 @@ const Projects = () => {
             <div className="col-lg-11 col-xl-9 col-xxl-8">
               {/* style="width: 18rem;" */}
               <Card
+                img={WeatherApp2}
+                title={"Tempestas: Weather Station"}
+                text={`This weather app has been developed using React and the Open Weather API. It provides current weather data and forecasts for a 5-day, 3-hour interval, as well as a 3-day, 1-hour interval of Air pollution for over 20,000 cities worldwide. Users can search for specific locations or access live weather information based on their current location. Additionally, the app allows users to save or remove locations for future reference.`}
+                items={["React,js", "State Management", "Open Weather Api"]}
+                link={"https://tempestas-weather.netlify.app/"}
+              ></Card>
+              {/* <Card
                 img={weatherApp}
                 title={"Weather App"}
                 text={`Weather app created using react and openWeather Api. You can
@@ -28,19 +35,19 @@ const Projects = () => {
                     device's Live Location.`}
                 items={["React,js", "Open Weather Api"]}
                 link={"https://fahadabbas920.github.io/weather-app/"}
-              ></Card>
+              ></Card> */}
               <Card
                 img={TenzieGame}
                 title={"Tenzie Game"}
                 text={`Everyone gets ten dice. Someone says, “Go.” Then everyone rolls and rolls as fast as they can until someone gets all their dice on the same number and shouts “TENZI.”`}
-                items={["React,js","State Management"]}
+                items={["React,js", "State Management"]}
                 link={"https://mytenziegame.netlify.app/"}
               ></Card>
               <Card
                 img={NotezApp}
                 title={"Notez App"}
                 text={`This is a simple yet powerful notes app, created using react-mde, and showdown which converts basic text into html format for preview. It uses your browser local storage to save your notes.`}
-                items={["React,js","React ShowDown","React-mde"]}
+                items={["React,js", "React ShowDown", "React-mde"]}
                 link={"https://fahadabbas920.github.io/Notez/"}
               ></Card>
             </div>
@@ -54,12 +61,18 @@ const Projects = () => {
             <h2 className="display-4 fw-bolder mb-4">
               Let's build something together
             </h2>
-            <a
+            <Link
+              to={"/contact"}
+              className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder"
+            >
+              Contact me
+            </Link>
+            {/* <a
               className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder"
               href="/contact"
             >
               Contact me
-            </a>
+            </a> */}
           </div>
         </div>
       </section>

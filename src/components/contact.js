@@ -16,7 +16,7 @@ const Contact = () => {
               <p className="lead fw-normal text-muted mb-0">
                 Let's work together!
               </p>
-              <i class="fa-solid fa-arrow-down fs-3"></i>
+              <i className="fa-solid fa-arrow-down fs-3"></i>
             </div>
             
             <div className="d-flex justify-content-center  mt-xxl-0"> {/*mt-5*/}
