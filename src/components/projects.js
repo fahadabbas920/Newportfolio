@@ -1,4 +1,4 @@
-import weatherApp from "../assets/weatherApp.JPG";
+// import weatherApp from "../assets/weatherApp.JPG";
 import TenzieGame from "../assets/projectTenzieGame.jpg";
 import NotezApp from "../assets/projectNotezApp.jpg";
 import WeatherApp2 from "../assets/weatherApp2.png";
